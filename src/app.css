@@ -1,11 +1,227 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 ActionBar {
-  background-color: #65adf1;
-  color: white;
+    background-color: #34b145;
+    color: #f8fafc;
 }
 
 Page {
-  background: white;
-  color: black;
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.page {
+    padding: 12 12 24 12;
+}
+
+.card {
+    padding: 12;
+    margin-bottom: 12;
+    border-radius: 12;
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 16;
+    margin-bottom: 6;
+}
+
+.period-title {
+    font-size: 15;
+}
+
+.field-label {
+    font-size: 12;
+    color: #475569;
+    margin-top: 8;
+}
+
+.text-field {
+    padding: 8;
+    border-width: 1;
+    border-color: #cbd5e1;
+    border-radius: 8;
+    background-color: #f8fafc;
+}
+
+.primary-button {
+    background-color: #0ea5e9;
+    color: white;
+    border-radius: 20;
+    padding: 6 12;
+    font-weight: bold;
+    android-elevation: 0;
+    android-dynamic-elevation-offset: 0;
+}
+
+.ghost-button {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    border-radius: 16;
+    padding: 4 8;
+    android-elevation: 0;
+    android-dynamic-elevation-offset: 0;
+}
+
+.filter-button {
+    font-size: 13;
+    
+}
+
+.danger-button {
+    background-color: #dc2626;
+    color: white;
+    border-radius: 16;
+    padding: 4 8;
+    android-elevation: 0;
+    android-dynamic-elevation-offset: 0;
+}
+
+.secondary-button {
+    background-color: #334155;
+    color: white;
+    border-radius: 20;
+    padding: 6 12;
+    font-weight: bold;
+    android-elevation: 0;
+    android-dynamic-elevation-offset: 0;
+}
+
+.subtle {
+    color: #64748b;
+    font-size: 12;
+}
+
+.summary-row {
+    margin-top: 4;
+}
+
+.summary-label {
+    font-size: 12;
+    color: #64748b;
+}
+
+.summary-income {
+    color: #16a34a;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.summary-expense {
+    color: #dc2626;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.summary-balance {
+    color: #0f172a;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.category-columns {
+    margin-top: 4;
+}
+
+.toggle-row {
+    margin-top: 4;
+}
+
+.toggle-button {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    border-radius: 18;
+    padding: 6 12;
+    android-elevation: 0;
+    android-dynamic-elevation-offset: 0;
+}
+
+.toggle-button.active {
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.chip {
+    padding: 4 8;
+    border-radius: 14;
+    background-color: #e2e8f0;
+    margin-bottom: 6;
+}
+
+.chip-text {
+    font-size: 14;
+    color: #0f172a;
+}
+
+.chip-row {
+    margin-bottom: 8;
+}
+
+.icon-button {
+    font-size: 18;
+    padding: 4 6;
+    text-align: center;
+}
+
+.icon-edit {
+    color: #64748b;
+}
+
+.icon-delete {
+    color: #dc2626;
+}
+
+.entry-list {
+    margin-top: 6;
+}
+
+.entry-item {
+    padding: 8 0;
+    border-bottom-width: 1;
+    border-bottom-color: #e2e8f0;
+}
+
+.entry-title {
+    font-weight: bold;
+    font-size: 14;
+}
+
+.entry-meta {
+    font-size: 12;
+    color: #64748b;
+}
+
+.entry-amount {
+    font-weight: bold;
+    font-size: 14;
+}
+
+.entry-actions {
+    horizontal-alignment: right;
+}
+
+.income {
+    color: #16a34a;
+}
+
+.expense {
+    color: #dc2626;
+}
+
+.error {
+    color: #dc2626;
+}
+
+.mt-1 {
+    margin-top: 4;
+}
+
+.mt-2 {
+    margin-top: 8;
+}
+
+.plus-button {
+    font-size: 24;
+    color: white;
 }
